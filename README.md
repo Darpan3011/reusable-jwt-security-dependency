@@ -169,25 +169,3 @@ Content-Type: application/json
   "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
 ```
-
----
-
-## 🧩 Default Structure
-
-| Type | Package | Description |
-|------|----------|-------------|
-| Configuration | `com.darpan.starter.security.config` | Auto-configs for JWT & OAuth2 |
-| Models | `com.darpan.starter.security.model` | Entities for users, roles, tokens |
-| Services | `com.darpan.starter.security.service*` | Authentication, token management |
-| Repositories | `com.darpan.starter.security.repository` | JPA repositories |
-| Filters | `com.darpan.starter.security.filter` | JWT authentication filter |
-| Event listeners | `com.darpan.starter.security.eventlistener` | OAuth2 login/logout handling |
-
----
-
-## ✅ Quick Recap
-
-1. Add the dependency  
-2. Add the `security.*` and OAuth2 properties  
-3. Add the `@SpringBootApplication` setup with component scanning  
-4. Run the app — security is ready
