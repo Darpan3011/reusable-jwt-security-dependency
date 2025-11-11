@@ -135,14 +135,6 @@ public class MyApplication {
 
 ---
 
-### 4. Run Your Application
-
-Start your Spring Boot app normally:
-
-```bash
-mvn spring-boot:run
-```
-
 Once running:
 - JWT login endpoints (`/auth/login`, `/auth/register`, `/auth/refresh2/**`) will be active  
 - OAuth2 login will redirect to configured providers (Google/GitHub/Azure)
